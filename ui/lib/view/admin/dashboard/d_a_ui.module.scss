@@ -1,0 +1,9 @@
+.input{
+  width:220px; padding:3px 10px;
+  & ._inner{position:relative;  }
+  & ._l{position:absolute; left:20px; top:5px; font-size:12px; opacity:0.7;}
+  & ._ic{width:100%; padding:10px; padding-top:24px; padding-left:20px; border-radius:10px; border:1px solid rgba(0,0,0,0.1);}
+}
+.info_field{
+  & .change_value{color:#ff9900; margin-left:10px;}
+}

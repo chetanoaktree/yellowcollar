@@ -1,0 +1,80 @@
+.main{
+  position:relative; width:100%; min-height:100%;  background-color:#f8f8f8;  
+}
+.container{
+  position:relative; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+.items{width:100%;}
+.item{
+  background-color:#ffffff; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05); border-radius:20px;  
+  
+}
+
+.data{
+  font-size:14px; display:flex; align-items:center; margin-bottom:6px;
+  & .label{color:rgba(0,0,0,0.5); margin-right:10px;}
+  & .value{color:rgba(0,0,0,0.8);}
+}
+
+.data_activity{
+  & .da{
+    font-size:14px; display:flex; align-items:center; margin-bottom:4px;
+    & .label{color:rgba(0,0,0,0.5); width:150px; margin-right:10px;}
+    & .value{color:rgba(0,0,0,0.8);}
+  }
+}
+
+
+
+.profile{
+  min-width:250px;  background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:12px;  
+}
+.shipping{
+  min-width:250px;  background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:12px; height:100%;   
+}
+.details{
+   min-width:250px; border:1px solid rgba(0,0,0,0.05); border-radius:20px; padding:12px; height:100%; 
+   background-color:#ffffff;  
+}
+.activity{
+  
+}
+.track{
+  display:flex; align-items:center;  border-radius:20px; padding:10px;  
+}
+.empty{
+  background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:10px; min-height:34px;  
+}
+.total_amount{
+  font-size:20px;
+}
+
+
+
+/*.item{
+  background-color:#ffffff; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05); border-radius:20px;  
+  & .top{display:flex; align-items:center;}
+  & .id{margin-right:20px;}  
+  & .date{flex-grow:1; font-size:36px; color:rgba(0,0,0,0.3); font-weight:800; }  
+  & .print{margin-left:20px;}
+  & .total{display:flex; flex-direction:column; align-items:flex-end;}
+  & .status_area{
+    display:flex; align-items:center; margin-bottom:10px; font-size:24px;
+     & .payment{ margin-right:10px;}
+     & .status{}  
+     
+  }
+
+  & .shipping{font-weight:800;}
+
+  & .influencer{
+    display:flex; align-items:center; margin-bottom:10px; font-weight:600;
+    & .name{margin-right:10px; }
+    & .email{color:blue;}
+  }
+
+  & .products{
+    margin-top:10px;
+    & .qty{color:red;}
+  }
+}*/

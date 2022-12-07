@@ -1,0 +1,14 @@
+.sm{
+  display:flex; align-items:center;
+  & .items{
+    display:flex; align-items:center;
+  }  
+  & .item{
+    width:30px; margin-right:6px;
+  }  
+}
+.block{  
+  & .item{
+    
+  } 
+}

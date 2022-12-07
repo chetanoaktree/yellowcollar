@@ -1,0 +1,18 @@
+.main{
+  position:relative; width:100%; min-height:100%; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+.top_a{
+  display:flex; align-items:center; justify-content:space-between; padding:20px 0px; margin:10px 0px;
+}
+.main_a{
+  background-color:#F6F6F6; border-radius:20px; padding:20px 40px; margin:10px 0px;
+}
+.bottom_a{
+  display:flex; align-items:center; justify-content:space-between; padding:20px 0px; margin:10px 0px;
+}
+.meta{margin-top:20px; padding-top:20px; border-top:1px solid rgba(0,0,0,0.1)}
+.row{
+  display:flex; align-items:center; padding:10px 0px;
+  & .label{width:25%; display:flex; align-items:center; justify-content:space-between; opacity:0.7;}
+  & .input{width:25%; padding:0px 10px;}
+} 

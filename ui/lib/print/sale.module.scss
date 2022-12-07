@@ -1,0 +1,27 @@
+.main{
+  display:flex; flex-direction:column; position:relative; width:100%; min-height:100%; max-width:1440px; margin:auto; padding: 20px 20px;
+  & .top{display:flex; align-items:center;}
+  & .id{margin-right:20px;}  
+  & .date{flex-grow:1; font-size:36px; color:rgba(0,0,0,0.3); font-weight:800; }  
+  & .print{margin-left:20px;}
+
+  & .status_area{
+    display:flex; align-items:center; margin-bottom:10px; font-size:24px;
+     & .payment{ margin-right:10px;}
+     & .status{}  
+     
+  }
+
+  & .shipping{font-weight:800;}
+
+  & .influencer{
+    display:flex; align-items:center; margin-bottom:10px; font-weight:600;
+    & .name{margin-right:10px; }
+    & .email{color:blue;}
+  }
+
+  & .products{
+    margin-top:10px;
+    & .qty{color:red;}
+  }
+}

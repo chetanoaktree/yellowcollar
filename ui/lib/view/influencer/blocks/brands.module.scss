@@ -1,0 +1,12 @@
+.brands{    
+    padding:20px 0px;
+}
+.inner{
+    max-width:1224px; margin:auto; display:flex; align-items:center; 
+}
+.brand{
+    --webkit-mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    margin:0px 20px;
+    max-width:200px;
+}

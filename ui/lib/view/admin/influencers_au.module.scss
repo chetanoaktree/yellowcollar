@@ -1,0 +1,59 @@
+.main{
+  position:relative; width:100%; min-height:100%;  background-color:#f8f8f8;
+}
+.container{
+  position:relative; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+
+.data{
+  font-size:14px; display:flex; align-items:center; margin-bottom:12px;
+  & .label{color:rgba(0,0,0,0.5); margin-right:10px;}
+  & .value{color:rgba(0,0,0,0.8);}
+  & .label2{color:rgba(0,0,0,0.5); margin-right:10px;}
+  & .title{flex-grow:1;}
+  & .amount{color:rgba(0,0,0,0.8);}
+}
+
+.item{
+  background-color:#ffffff; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05); border-radius:20px;  
+  & .profile {
+    min-width:250px;  border-radius:20px; height:100%;  
+    & .influencer_a{ background-color:rgba(0,0,0,0.03);  padding:12px; border-radius:20px;}   
+    & .inner_a{ padding:12px;}   
+  }
+  
+  & .details{
+    min-width:250px; border:1px solid rgba(0,0,0,0.05); border-radius:20px; padding:12px; height:100%; 
+    background-color:#ffffff;  
+  }
+  & .activity{
+    
+  }
+  & .track{
+    display:flex; align-items:center;  border-radius:20px; padding:10px;  
+  }
+  & .empty{
+    background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:10px; min-height:34px;  
+  } 
+  & .email{font-size:12px; opacity:0.5;}
+  & .profession{font-size:12px; opacity:0.7;}
+  & .init_fixed_fee{font-size:12px; opacity:0.5;}
+
+  & .order_item{
+    border-bottom:1px solid rgba(0,0,0,0.05); padding:8px 0px;
+    & .date2{opacity:0.7; font-size:14px;}
+    & .id2{opacity:0.3;  font-size:12px;}
+    &:last-child{border-bottom:0px;}
+  }
+}
+
+.id{
+  min-width:100px;
+  & .back{
+    
+  }  
+  & .inf_Id{
+    font-size:20px; background-color:#ffffff; border-radius:50px; display:flex; justify-content:center; align-items:center; 
+    width:60px; height:60px;  margin-right:14px; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  }
+}

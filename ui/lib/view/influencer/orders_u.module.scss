@@ -1,0 +1,46 @@
+.main{
+  position:relative; width:100%; min-height:100%;  background-color: #F6F6F6;
+  & .inner{
+      max-width:1444px; margin:auto; padding: 20px;   padding-top:40px;
+  }
+}
+.heading{display:flex; align-items:center; padding: 10px 20px;}
+.item{
+    display: flex;    align-items: center;    background-color: #ffffff;    margin-bottom: 8px;    padding: 20px;    border-radius: 20px;
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0,0.3);
+    &:hover {
+        box-shadow: 0px 8px 8px -4px rgba(0, 0, 0,0.2);
+    }
+    & .view{
+        margin-right:10px; padding:20px; cursor:pointer; box-shadow:0px 2px 4px -2px rgba(0,0,0,0.1); border-radius:100px; background-color:rgba(0,0,0,0.02); 
+        &:hover{ background-color:rgba(0,0,0,0.05);  }
+        &:active{background-color:rgba(0,0,0,0.1);}
+    }
+}
+.view_a{
+    width:80px; padding-right:10px; display:flex;
+}
+.id_a{
+    width:60px; padding-right:10px;
+}
+.date_a{
+    width:120px; padding-right:10px;
+}
+.items_a{
+    flex-grow:1; padding-right:10px;
+}
+.total_a{
+    width:100px; text-align:right; padding-right:20px;
+}
+.shipping_a{
+    width:200px; text-align:center; padding-right:10px;
+}
+.status_a{
+    width:200px; text-align:center; padding-right:10px;
+}
+.items{
+    margin-top:20px; 
+}
+.date{}
+.time{font-size:14px; opacity:0.5;}
+.shipping{font-size:14px; opacity:0.7;}

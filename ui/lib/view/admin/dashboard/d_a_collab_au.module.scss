@@ -1,0 +1,18 @@
+
+.inputs{
+  border-radius:20px; background-color:#F8F8F8; padding:10px;
+}
+.label{ 
+  opacity:0.5; font-size:12px;
+}
+.video{ 
+  & ._play{ 
+    width:120px; height:120px; border-radius:100px; background-color:#ffffff; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    cursor:pointer; transition:all 0.1s ease-in; border:2px solid rgba(13, 22, 253, 0);
+    &:hover{ border:2px solid rgba(13, 22, 253, 0.1);;} 
+    &:active{transform:scale(0.95);} 
+  }  
+}
+.gray_block{
+  border-radius:20px; background-color:#F8F8F8; padding:10px;
+}

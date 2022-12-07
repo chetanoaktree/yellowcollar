@@ -1,0 +1,23 @@
+.main{
+  display:flex; flex-wrap:wrap;  position:relative; width:100%; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+.header{
+  width:100%;
+  & .search_area{width:100%; margin-top:20px;}
+}
+
+.items{width:100%;}
+.item{
+  display:flex; background-color: #F6F6F6; margin-bottom: 8px; padding: 20px; border-radius: 20px; box-shadow: 0px 2px 4px -2px rgba(0, 0, 0,0.3);
+  transition:all o.2s ease-in;
+  &:hover{box-shadow: 0px 8px 8px -4px rgba(0, 0, 0,0.2);} 
+
+  & .image_area{width:120px; margin-right:20px;}
+  & .name_area{display:flex; flex-direction:column; flex-grow:1;}
+  & .price_area{display:flex; flex-direction:column;}
+  & .action_area{display:flex; flex-direction:column; margin-left:20px;}
+
+
+  & .stock{font-size:24px; font-weight:bold;}
+}
+

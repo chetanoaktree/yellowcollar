@@ -1,0 +1,9 @@
+.track{
+  display:flex; align-items:center;  border-radius:20px; padding:10px;  
+  &.sm{
+    padding:4px; 
+  }
+  &.xs{
+    padding:4px; 
+  }
+}

@@ -1,0 +1,21 @@
+.main{
+  border:1px solid rgba(0,0,0,0.1); border-radius:8px; width:100%; background-color:#ffffff;
+  &.focus{
+    outline:2px solid rgba(0,0,0,0.5);
+  } 
+  &:hover{
+    outline:2px solid rgba(0,0,0,0.5);
+  } 
+}
+.input_control{
+  padding:10px 20px; border:0px; background-color:transparent; width:100%;
+  &:focus{
+    outline:none;
+  }
+}
+textarea.input_control{
+  min-height:150px;
+}
+.rounded{
+  border-radius:100px;
+}

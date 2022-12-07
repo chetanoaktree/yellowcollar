@@ -1,0 +1,38 @@
+.act_arrow{
+  margin:0px 20px; opacity:0.2;
+  &.active{opacity:1;}
+}
+.act_item{
+  width:120px; margin:10px 0px; padding: 10px 20px; 
+  & .value_a{position:relative; opacity:0;}
+  & .value{font-size:12px;  opacity:0;}
+  & .label{font-size:18px; opacity:0.3;}
+  & .date{font-size:12px; color:rgba(0,0,0,0.5); height:20px; opacity:0; margin-top:6px;  white-space: nowrap;}
+
+  &.active{
+    background-color: #ffffff; border-radius: 10px; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    & .value{opacity:1; }
+    & .label{opacity:1; }
+    & .date{opacity:1; }
+  }
+}
+
+.itemLayout{
+  background-color:#ffffff; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05); border-radius:20px;  
+  & .profile{
+    min-width:250px;  background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:12px; height:100%;     
+  }
+  & .details{
+    min-width:250px; border:1px solid rgba(0,0,0,0.05); border-radius:20px; padding:12px; height:100%; 
+    background-color:#ffffff;  
+  }
+  & .activity{
+    
+  }
+  & .track{
+    display:flex; align-items:center;  border-radius:20px; padding:10px;  
+  }
+  & .empty{
+    background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:10px; min-height:34px;  
+  } 
+}

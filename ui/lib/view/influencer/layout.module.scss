@@ -1,0 +1,13 @@
+.main{
+  position:relative; width:100%; background-color:#ffffff;
+}
+
+
+@media (max-width: 900px){
+  .header {
+      min-height: 400px; 
+  }
+  .header_bg{
+    position:absolute; top:0px; left:0px; right:0px; bottom:0px;
+  }
+}

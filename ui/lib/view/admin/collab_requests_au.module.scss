@@ -1,0 +1,38 @@
+.main{
+  position:relative; width:100%; min-height:100%; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+.top_a{
+  display:flex; align-items:center; justify-content:space-between; padding:20px 0px; margin:10px 0px;
+}
+.main_a{
+  background-color:#F6F6F6; border-radius:20px; padding:20px 40px; margin:10px 0px;
+}
+.bottom_a{
+  display:flex; align-items:center; justify-content:space-between; padding:20px 0px; margin:10px 0px;
+}
+.business_a{
+  padding-right:20px; width:100px; display:flex; align-items:center; flex-direction:column;
+}
+.name_a{
+  flex-grow:1; display:flex; align-items:center;
+}
+.product_a{
+  padding-right:20px; width:25%;
+}
+.match_a{
+  padding-right:40px;
+}
+.action_a{
+  min-width:300px; display:flex; align-items:center; justify-content:flex-end; 
+}
+.item{
+   display:flex; align-items:center; background-color:#F6F6F6; padding:10px 20px; border-radius:20px; margin-bottom:10px;
+   & .name{text-align:center;}
+}
+.headings{
+  display:flex; align-items:center; background-color:#F6F6F6; padding:10px 20px; border-radius:20px; margin-bottom:10px; opacity:0.5;  
+}
+
+.content{
+  padding:20px 0px;
+}

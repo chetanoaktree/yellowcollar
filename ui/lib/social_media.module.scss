@@ -1,0 +1,17 @@
+.main{
+  
+}
+.items{
+  display:flex; align-items:center;
+}
+.item{
+  padding:4px 4px; cursor:pointer; transition:all 0.2s ease-in-out;
+  &:active{
+    transform:translateY(1px);
+  }
+}
+/*@media only screen and (max-width:400px){
+  .main{  
+    
+  }
+}*/

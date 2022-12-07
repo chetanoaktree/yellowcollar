@@ -1,0 +1,15 @@
+.main{
+  width:100%;
+}
+.header{
+  
+}
+
+@media (max-width: 900px){
+  .header {
+      min-height: 400px;;
+  }
+  .header_bg{
+    padding-top:300px;
+  }
+}

@@ -1,0 +1,26 @@
+.main{      
+    & .influencer_stats_h{
+        position:absolute; top:0px; left:0px; right:0px; margin-top:-50px; display:flex; justify-content:center;
+    }
+    & .influencer_stats{
+        padding:4px 20px; border-radius:20px; margin-bottom:10px;
+    }
+    & .previously_purchased{
+        background-image:linear-gradient(to bottom right, #EDF9FF, #E5EAE3);
+    }
+    & .offer_sent{
+        background-image:linear-gradient(to bottom right, #FDFFDD, #E5EAE3);
+    }
+    & .previously_collaborated{
+        background-image:linear-gradient(to bottom right, #FDFFDD, #FBEBE8);
+    }
+    & .active_collaboration{
+        background-image:linear-gradient(to bottom right, #EDF9FF, #FBEBE8);
+    }
+    
+}
+.left {
+    .influencer_stats_h{justify-content:flex-start;}
+}
+
+

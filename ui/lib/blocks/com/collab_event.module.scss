@@ -1,0 +1,42 @@
+.event{
+  display:flex; margin-bottom:40px;
+  & p{margin-bottom:10px;}  
+}
+.event_inner{
+  min-width:200px; max-width:500px; padding:20px 20px; background-color:#E8E8E8; border-radius:30px; border:1px solid #E8E8E8; 
+}
+
+.action_area{
+  margin-top:24px; margin-bottom:14px; display:flex; justify-content:flex-end; 
+}
+.details_area{
+  padding:20px; background-color:rgba(0,0,0,0.1); border-radius:20px;
+  margin-top:14px; margin-bottom:14px; 
+}
+.details_action{
+  display:flex;  justify-content:flex-end; margin-top:20px;
+  & div{margin-left:10px;}
+}
+.status_area{
+   margin-top:14px;
+}
+.payment_status{    
+  background-color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 100px;
+}
+.date{opacity:0.5; text-align:right; margin-top:10px;}
+.status{color:red;}
+.hi{font-weight:bold; margin-bottom:10px;}
+.regards{  font-weight:bold; margin-bottom:0px;}
+.from{  font-weight:bold; margin-bottom:10px;}
+
+.right{
+  justify-content:flex-end; 
+}
+.left{
+  justify-content:flex-start; 
+  & .event_inner{
+    background-color:#ffffff; 
+  }
+}

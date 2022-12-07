@@ -1,0 +1,28 @@
+.main{    
+    position:relative; padding-top:30px;
+    & .img_h{position:relative; padding-top:100%;  border-radius:40px; overflow:hidden; border:1px solid rgba(0,0,0,0.05);}
+    & .img{position:absolute; top:0px; left:0px; right:0px; bottom:0px; transition:all 0.2s ease-in-out; }
+    & .title_a{width:100%; min-height:80px; border-bottom:1px solid rgba(0,0,0,0.1);}
+    & .title{font-size:18px; font-family:'AvenirNext'; }
+    & .business_name{opacity:0.5; font-size:14px;}
+    & .final_price{font-family:'AvenirNext'; font-size:20px;}
+    & .price{font-family:'AvenirNext'; font-size:14px;text-decoration:line-through;}
+    & .product_img{width:100%; height:100%; border-top-right-radius:20px; border-bottom-left-radius:10px;}
+    &:hover{        
+        & .img{transform:scale(1.08) rotate(5deg);}
+    }
+}
+
+
+
+@media only screen and (min-width:900px){
+    .main{ 
+        & .img_h{padding-top:134%;}
+        & .title{font-size:16px; font-family:'AvenirNext'; }
+    }
+    .col2{
+        & .img_h{padding-top:60%;  }
+        & .title{font-size:22px; font-family:'AvenirNext'; }
+    }
+}
+

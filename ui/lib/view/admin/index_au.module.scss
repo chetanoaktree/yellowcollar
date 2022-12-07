@@ -1,0 +1,25 @@
+.main{
+  position:relative; width:100%; min-height:100%; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+
+.order_a{margin-right:20px; width:80px; display:flex; justify-content:center;}
+.business_a{margin-right:20px; width:100px; display:flex; justify-content:center;}
+.user_a{flex-grow:1;}
+.match_a{margin-right:20px; width:100px; display:flex; justify-content:center;}
+.performance_a{margin-right:20px; margin-left:20px; width:100px; display:flex; justify-content:center;}
+.total_a{margin-right:20px; width:200px; display:flex; justify-content:center;}
+.action_a{margin-left:20px; width:100px; display:flex; justify-content:center;}
+
+.item{
+  display:flex; align-items:center; background-color:#F6F6F6; padding:10px 20px; border-radius:20px; margin-bottom:10px;
+  & .orderId{
+    font-size:20px; background-color:#ffffff; border-radius:50px; display:flex; justify-content:center; align-items:center; width:60px; height:60px;
+    margin-right:14px;
+  }
+  & .match_a input{text-align:center;width:100%;}
+  
+}
+.headings{
+  display:flex; align-items:center; background-color:#F6F6F6; padding:10px 20px; border-radius:20px; margin-bottom:10px; opacity:0.5;  
+}
+

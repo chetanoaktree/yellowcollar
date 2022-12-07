@@ -1,0 +1,37 @@
+.main{
+  position:relative; width:100%; background-color:#f2f2f2; padding:80px 20px; min-height:100%; padding-top:120px;
+  display:flex; align-items:center;
+}
+.inner{
+  max-width:1024px; margin:0px auto;
+  & input{width:100%;}
+  & input[type=checkbox]{width:20px; height:20px;}
+}
+.switch{
+  display:flex; background-color:#253C64;  color:#ffffff; border-radius:100px; margin-bottom:20px;
+}
+.switch_item{
+  padding:10px 50px; border-radius:100px; cursor:pointer;
+}
+.card{
+  max-width:800px; margin:0px auto; background-color:#ffffff; box-shadow:0px 2px 4px rgba(0,0,0,0.2);
+  padding:40px; border-radius:8px; display:flex; flex-direction:column; align-items:center; min-height:300px; min-width:500px;
+}
+.form{
+  margin-top:30px; margin-bottom:20px; display: flex;    flex-direction: column;    align-items: center;    flex-grow: 1; width:100%;
+}
+.input {
+  width:100%;  
+}
+.influencer{
+  & .switch_influencer{ background-color:#FFFF01; color:#253C64; transform:scale(1.1);}
+}
+.business{ 
+  & .switch_business{ background-color:#FFFF01; color:#253C64; transform:scale(1.11);}
+}
+.error{color:red;}
+/*@media only screen and (max-width:400px){
+  .main{  
+    
+  }
+}*/

@@ -1,0 +1,20 @@
+<svg width="279" height="34" viewBox="0 0 279 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="279" height="33.8704" rx="11.4815" fill="url(#paint0_linear_2123_3168)" fill-opacity="0.1"/>
+<circle cx="25.5461" cy="18.6609" r="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<ellipse cx="49.3704" cy="18.6609" rx="4.59259" ry="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<circle cx="69.176" cy="18.6609" r="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<circle cx="92.7131" cy="18.6609" r="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<circle cx="116.824" cy="18.6609" r="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<circle cx="140.361" cy="18.6609" r="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<circle cx="164.472" cy="18.6609" r="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<ellipse cx="188.296" cy="18.6609" rx="4.59259" ry="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<circle cx="212.12" cy="18.6609" r="4.87963" fill="#02C315" fill-opacity="0.5"/>
+<path d="M240.25 18.6609C240.25 21.2139 238.306 23.2535 235.945 23.2535C233.583 23.2535 231.639 21.2139 231.639 18.6609C231.639 16.1078 233.583 14.0683 235.945 14.0683C238.306 14.0683 240.25 16.1078 240.25 18.6609Z" stroke="black" stroke-opacity="0.1" stroke-width="0.574074"/>
+<circle cx="259.768" cy="18.6609" r="4.59259" stroke="black" stroke-opacity="0.1" stroke-width="0.574074"/>
+<defs>
+<linearGradient id="paint0_linear_2123_3168" x1="210.398" y1="0" x2="232.5" y2="-1.03371e-07" gradientUnits="userSpaceOnUse">
+<stop stop-color="#02C315"/>
+<stop offset="1" stop-color="#AFAFAF"/>
+</linearGradient>
+</defs>
+</svg>

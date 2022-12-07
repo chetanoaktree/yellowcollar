@@ -1,0 +1,34 @@
+.widgets{
+  & ._items{
+     background-color:#F8F8F8; border-radius:20px;
+     box-shadow: 0px 30px 20px -16px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(0, 0, 0, 0.05);   
+   }     
+}
+
+.recentItems{   
+   & ._items{
+     background-color:#F8F8F8; border-radius:20px;
+     box-shadow: 0px 30px 20px -16px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(0, 0, 0, 0.05);   
+   }  
+   & ._title{}
+   & ._img{
+     background-color:#ffffff; border-radius:100px;
+     box-shadow: 0px 30px 20px -16px rgba(0, 0, 0, 0.05);   
+   }
+   
+}
+
+.widget{
+  padding:10px;  
+  &  ._l{} 
+  &  ._v{background-color:#ffffff; border-radius:20px; min-width:120px;
+   box-shadow: 0px 30px 20px -16px rgba(0, 0, 0, 0.05) } 
+}
+.recentItem{
+   padding:10px;
+   
+}
+._link{
+  cursor:pointer;  border-radius:20px;
+  &:hover {background-color:rgba(0,0,0,0.03);}
+}

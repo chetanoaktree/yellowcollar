@@ -1,0 +1,9 @@
+.main{  
+  & .item{
+    display:flex; align-items:center;
+    & .label{min-width:120px;}
+    & .sep{margin:0px 20px;}
+    & .value{font-size:18px;}
+  }
+}
+

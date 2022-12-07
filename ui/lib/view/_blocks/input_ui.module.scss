@@ -1,0 +1,11 @@
+.input{
+  padding:3px 6px;
+  & ._inner{position:relative;  }
+  & ._l{position:absolute; left:20px; top:5px; font-size:12px; opacity:0.66;}
+  & ._ic{width:100%; padding:10px; padding-top:24px; padding-left:20px; border-radius:10px; border:1px solid rgba(0,0,0,0.1);}
+  & ._cv{color:orange; padding:4px 20px 10px 20px; font-size:12px;}
+}
+
+.change_value{
+  & ._ic{background-color:rgba(255,165,0,0.1); }
+}

@@ -1,0 +1,27 @@
+.main{
+  background-color: #F6F6F6; position:relative; width:100%; min-height:100%;
+}
+.inner{
+  position:relative; width:100%; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+
+.items{width:100%;}
+
+.item{
+  background-color:#ffffff; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05); 
+  border-radius:20px;  padding:10px 20px; margin-bottom:12px;
+}
+.product{
+  background-color:#f8f8f8; border-radius:20px;
+}
+.upload_a{
+  & input{font-size:14px; }
+}
+.download{
+  width:96px; height:96px; min-width:96px;
+}
+
+.image{
+  width:96px; height:96px; min-width:96px;
+}
+

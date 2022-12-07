@@ -1,0 +1,36 @@
+.main{
+  position:relative; width:100%; min-height:100%;  background-color:#f8f8f8;
+}
+.container{
+  position:relative; max-width:1440px; margin:auto; padding: 20px 20px;
+}
+
+.sep{ border-top:1px solid rgba(0,0,0,0.08); }
+.data{
+  font-size:14px; display:flex; align-items:center; margin-bottom:12px;
+  & .label{color:rgba(0,0,0,0.5); margin-right:10px;}
+  & .value{color:rgba(0,0,0,0.8);}
+}
+.item{
+  background-color:#ffffff; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05); border-radius:20px;  
+}
+.profile{
+  min-width:250px;  background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:12px; height:100%; 
+  
+}
+.details{
+   min-width:250px; border:1px solid rgba(0,0,0,0.05); border-radius:20px; padding:12px; height:100%; 
+   background-color:#ffffff;  
+}
+.activity{
+  
+}
+.track{
+  display:flex; align-items:center;  border-radius:20px; padding:10px;  
+}
+.empty{
+  background-color:rgba(0,0,0,0.03);  border-radius:20px; padding:10px; min-height:34px;  
+}
+.total_amount{
+  font-size:20px;
+}

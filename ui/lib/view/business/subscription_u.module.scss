@@ -1,0 +1,6 @@
+.main{
+    background-size:cover; background-position:center; height:100%;
+    & .inner{
+        max-width:1440px; margin:auto; padding:100px 20px; 
+    }   
+}

@@ -1,0 +1,166 @@
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('/fonts/AvenirNextLTPro-Regular.otf'); // pattern: /directoryName/file.extension
+    font-weight:400;
+    font-style:normal;
+}
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('/fonts/AvenirNextLTPro-Bold.otf'); // pattern: /directoryName/file.extension
+    font-weight:600;
+    font-style:normal;
+}
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('/fonts/AvenirNextLTPro-It.otf'); // pattern: /directoryName/file.extension
+    font-weight:400;
+    font-style:italic;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis.extra-light.otf'); // pattern: /directoryName/file.extension
+    font-weight:100;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis.light.otf'); // pattern: /directoryName/file.extension
+    font-weight:300;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis.medium.otf'); // pattern: /directoryName/file.extension
+    font-weight:400;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis.semi-bold.otf'); // pattern: /directoryName/file.extension
+    font-weight:600;
+}
+* {
+    box-sizing: border-box;
+    --site-blue:#253C64; 
+    --font-abel: 'Abel', sans-serif; 
+    --font-abhaya: 'Abhaya Libre', serif;  
+}  
+body {  
+    padding: 0px;
+    margin:0px;
+    font-family: 'Abel', sans-serif; 
+    font-family: 'Lato', sans-serif; 
+    color:var(--site-blue);
+    height:100%;
+}
+html{height:100%;}
+
+.input{
+    border:0px; background-color:transparent; padding:10px 20px;
+}
+.input:focus{
+    border:0px; outline:0px;
+}
+
+.in_scroller{display:none;}
+.scroll_500 .in_scroller{display:block;}
+
+/* In your css file where you want to use the font */
+body { 
+ font-family: 'Metropolis';
+}
+.font-able{font-family: 'Abel', sans-serif; }
+.font-abel{font-family: 'Abel', sans-serif; }
+.font-abhaya{font-family: 'Abhaya Libre', serif; }
+.font-metropolis{font-family: 'Metropolis', serif; }
+
+.app {
+    h2{ @apply font-able; font-size:72px; }
+    h3{ @apply font-able; font-size:48px; }
+    h4{ @apply font-able; font-size:36px; }
+    h5{ @apply font-able; font-size:24px; }
+    h6{ @apply font-able; font-size:18px; }
+}
+.item{
+    & .failed{color:red;}
+    & .paid{color:green;}
+    & .pending{color:gray;}
+    & .delivered{color:gray;}
+    & .awaiting_processing{color:blue;}
+    & .cancelled{color:red;}
+}
+
+
+.fixed2{position:fixed; top:0px; left:0px; right:0px; bottom:0px;}
+
+.style_base{
+    & .i{
+        border:1px solid rgba(0,0,0,0.1); border-radius:8px; width:100%; background-color:#ffffff;
+    }
+    & .ic{
+        padding:10px 20px; border:0px; background-color:transparent; width:100%;
+        &:focus{
+            outline:none;
+        }
+    }
+    & .e{
+        opacity:0.5; font-size:14px; padding:10px 20px; color:red;
+    }
+    & textarea.ic{
+        min-height:150px;
+    }
+}
+
+
+/* body scroll */
+.scroll_100_display{display:none}
+.scroll_100 .scroll_100_display{display:block}
+
+
+
+
+/* slider */
+:root {
+    --swiper-theme-color: #253C64;
+}
+.swiper-pagination-bullet {    
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .05);
+}
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 0.5);   
+}
+
+.bottom_nav .swiper-button-prev,
+.bottom_nav .swiper-button-next{   
+    color: rgba(0,0,0,0.5);
+}
+.bottom_nav .swiper-button-prev{
+    left:4%;
+}
+.bottom_nav .swiper-button-next{
+    right:4%;
+}
+.bottom_nav .swiper-button-prev,
+.bottom_nav .swiper-button-next{
+    top: auto;
+    bottom:0%;
+}
+.bottom_nav .swiper-button-prev.swiper-button-disabled,
+.bottom_nav .swiper-button-next.swiper-button-disabled{
+    opacity: .15;
+}
+.bottom_nav .swiper-horizontal>.swiper-scrollbar, 
+.bottom_nav .swiper-scrollbar.swiper-scrollbar-horizontal{
+    width:80%; left:10%;
+}
+
+.notification-container{
+    position:fixed;    bottom:40px;     left:40px;    z-index:200;    
+    & .notification{
+        background-color:var(--site-blue); color:#ffffff; box-shadow:0px 4px 4px rgba(0,0,0,0.1);    padding:12px 30px;    border-radius:50px; 
+    }
+}
+
+@media only screen and (max-width:400px){
+  .swiper-button-prev{display:none;}
+  .swiper-button-next{display:none;}
+}
+
